@@ -38,16 +38,11 @@ WHERE path in ('web/unsecure/base_url', 'web/secure/base_url')
 ```
  * Clear the Magento cache
 
-6. Add *magento.localhost* to your hosts /etc/hosts file
-```
-    127.0.0.1       magento.localhost
-```
-
-7. **Spin up your new DevOps environment**
+6. **Spin up your new DevOps environment**
 ```
     vagrant up
 ```
-8. (Optional) Install Phing along with additional support libraries on your new DevOps environment
+7. (Optional) Install Phing along with additional support libraries on your new DevOps environment
 ```
 vagrant ssh
 cd /vagrant
@@ -72,6 +67,8 @@ This virtual machine is optimized for ease of use.  Therefore it is not meant fo
  * PHP 5.3.10
  * Composer
  * Phing 2.5.0 
+
+Magento is available at http://magento.localhost
 
 See http://magento.localhost:8080/phpinfo.php for more details.
 
