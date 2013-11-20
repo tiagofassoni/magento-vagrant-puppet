@@ -33,15 +33,6 @@ class { 'mysql':
 }
 
 /**
-* Add hosts entry
-*/
-host { 'magento.localhost':
-    ip => '127.0.0.1',
-}
-
-
-
-/**
  * Magento config
  */
 class { 'magento':
